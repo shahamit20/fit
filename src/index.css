@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.input::-webkit-inner-spin-button{
+    appearance: none;
+}
